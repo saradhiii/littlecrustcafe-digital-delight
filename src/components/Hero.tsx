@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import heroBg from "@/assets/pexels-teejay-1362534.jpg";
+import heroBg from "@/assets/AdobeStock_1674386404_Preview.jpeg";
 
 export function Hero() {
   return (

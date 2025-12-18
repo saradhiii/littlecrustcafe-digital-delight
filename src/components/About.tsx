@@ -53,7 +53,7 @@ export function About() {
               className="absolute -bottom-6 -right-6 bg-coral text-accent-foreground px-6 py-4 rounded-2xl shadow-xl"
             >
               <p className="text-sm font-medium">Scoops Franchise</p>
-              <p className="text-2xl font-display font-bold">Since 2020</p>
+              <p className="text-2xl font-display font-bold">Since 2025</p>
             </motion.div>
           </motion.div>
 
