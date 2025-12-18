@@ -1,20 +1,19 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import wafflesImg from "@/assets/waffles.jpg";
-import shakesImg from "@/assets/shakes.jpg";
-import icecreamImg from "@/assets/icecream.jpg";
 import italianImg from "@/assets/italian.jpg";
 import chineseImg from "@/assets/chinese.jpg";
-import cafeInterior from "@/assets/cafe-interior.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
+import img1 from "@/assets/IMG-20251216-WA0002.jpg";
+import img2 from "@/assets/IMG-20251216-WA0009.jpg";
+import img3 from "@/assets/IMG-20251216-WA0012.jpg";
+import img4 from "@/assets/IMG-20251216-WA0015.jpg";
 
 const galleryImages = [
-  { src: heroBg, alt: "Cafe food spread" },
-  { src: cafeInterior, alt: "Cafe interior ambience" },
-  { src: wafflesImg, alt: "Belgian waffles" },
-  { src: shakesImg, alt: "Colorful milkshakes" },
-  { src: icecreamImg, alt: "Scoops ice cream" },
+  { src: img1, alt: "Cafe interior ambience" },
+  { src: img2, alt: "Belgian waffles" },
+  { src: img3, alt: "Colorful milkshakes" },
+  { src: img4, alt: "Scoops ice cream" },
   { src: italianImg, alt: "Italian pasta" },
   { src: chineseImg, alt: "Chinese cuisine" },
 ];

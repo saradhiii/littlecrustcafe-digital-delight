@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Coffee, IceCream, Heart } from "lucide-react";
-import cafeInterior from "@/assets/cafe-interior.jpg";
+import cafeInterior from "@/assets/IMG-20251216-WA0015.jpg";
 
 const features = [
   {

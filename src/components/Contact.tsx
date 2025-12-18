@@ -6,12 +6,12 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    details: ["123 Food Street, Cafe Lane", "Mumbai, Maharashtra 400001"],
+    details: ["BHEL Avemachs, Mangapuram Colony, Green County Colony, Alwal, Hyderabad, Secunderabad, Telangana 500010"],
   },
   {
     icon: Phone,
     title: "Phone",
-    details: ["+91 98765 43210", "+91 12345 67890"],
+    details: ["+91 72077 58534", "+91 89770 09988"],
   },
   {
     icon: Mail,
@@ -86,16 +86,17 @@ export function Contact() {
             className="rounded-2xl overflow-hidden h-[400px] lg:h-full min-h-[300px] card-elevated"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1702900000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.289845287547!2d78.4881718!3d17.5060759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b005403546b%3A0x940d3a208e7bf3!2sLittle%20Crust%20Cafe!5e0!3m2!1sen!2sin!4v1733720000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Littlecrustcafe Location"
+              title="Little Crust Cafe Location"
               className="grayscale hover:grayscale-0 transition-all duration-500"
             />
+
           </motion.div>
         </div>
       </div>
